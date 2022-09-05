@@ -1,0 +1,4 @@
+<?php
+$bilangan =1;
+
+?>
