@@ -6,7 +6,7 @@ class Company {
   public $dailySalary = 100000;
   
   function calculateBonus() {
-    $bonusMultiplier = $this->level =='Senior' ? 2 : 1;
+    $bonusMultiplier = $level = 'Senior' ? 2 : 1;
     $bonus = 0;
     if($this->dayCount>17 && $this->dayCount<=20) {
       $bonus = $this->basicBonus * $bonusMultiplier;
